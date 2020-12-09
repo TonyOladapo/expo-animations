@@ -1,10 +1,12 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+
 import AbsolutePosition from "./components/AbsolutePosition";
 import Add from "./components/Add";
 import Colors from "./components/Colors";
 import Decay from "./components/Decay";
+import Delay from "./components/Delay";
 import Divide from "./components/Divide";
 import Easing from "./components/Easing";
 import Event from "./components/Event";
@@ -43,7 +45,8 @@ export default function App() {
       {/* <Modulo /> */}
       {/* <Parallel /> */}
       {/* <Sequence /> */}
-      <Stagger />
+      {/* <Stagger /> */}
+      <Delay />
     </View>
   );
 }
