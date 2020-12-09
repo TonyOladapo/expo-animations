@@ -16,6 +16,7 @@ import Rotation from "./components/Rotation";
 import Scale from "./components/Scale";
 import Sequence from "./components/Sequence";
 import Spring from "./components/Spring";
+import Stagger from "./components/Stagger";
 import TranslatePosition from "./components/TranslatePosition";
 import WidthHeight from "./components/WidthHeight";
 import WidthHeightPercentage from "./components/WidthHeightPercentage";
@@ -41,7 +42,8 @@ export default function App() {
       {/* <Multiply /> */}
       {/* <Modulo /> */}
       {/* <Parallel /> */}
-      <Sequence />
+      {/* <Sequence /> */}
+      <Stagger />
     </View>
   );
 }
