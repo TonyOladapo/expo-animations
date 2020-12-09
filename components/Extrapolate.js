@@ -29,12 +29,12 @@ const Extrapolate = () => {
   const startAnimation = () => {
     Animated.timing(animation, {
       toValue: 2,
-      duration: 1000,
+      duration: 1500,
       useNativeDriver: true,
     }).start(() => {
       Animated.timing(animation, {
         toValue: 1,
-        duration: 1000,
+        duration: 1500,
         useNativeDriver: true,
       }).start();
     });
