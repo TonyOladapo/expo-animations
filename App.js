@@ -26,6 +26,7 @@ import WidthHeightPercentage from "./components/WidthHeightPercentage";
 import ColorsBackground from "./components/ColorsBackground";
 import RotationMore from "./components/RotationMore";
 import Extrapolate from "./components/Extrapolate";
+import CreateAnimatedComponent from "./components/CreateAnimatedComponent";
 
 export default function App() {
   return (
@@ -54,7 +55,8 @@ export default function App() {
       {/* <InterpolatesOnInterpolate /> */}
       {/* <ColorsBackground /> */}
       {/* <RotationMore /> */}
-      <Extrapolate />
+      {/* <Extrapolate /> */}
+      <CreateAnimatedComponent />
     </View>
   );
 }
