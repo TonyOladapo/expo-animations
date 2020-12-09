@@ -24,6 +24,7 @@ import TranslatePosition from "./components/TranslatePosition";
 import WidthHeight from "./components/WidthHeight";
 import WidthHeightPercentage from "./components/WidthHeightPercentage";
 import ColorsBackground from "./components/ColorsBackground";
+import RotationMore from "./components/RotationMore";
 
 export default function App() {
   return (
@@ -50,7 +51,8 @@ export default function App() {
       {/* <Stagger /> */}
       {/* <Delay /> */}
       {/* <InterpolatesOnInterpolate /> */}
-      <ColorsBackground />
+      {/* <ColorsBackground /> */}
+      <RotationMore />
     </View>
   );
 }
