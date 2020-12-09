@@ -12,6 +12,7 @@ import Easing from "./components/Easing";
 import Event from "./components/Event";
 import Modulo from "./components/Modulo";
 import Multiply from "./components/Multiply";
+import InterpolatesOnInterpolate from "./components/InterpolatesOnInterpolate";
 import Opacity from "./components/Opacity";
 import Parallel from "./components/Parallel";
 import Rotation from "./components/Rotation";
@@ -46,7 +47,8 @@ export default function App() {
       {/* <Parallel /> */}
       {/* <Sequence /> */}
       {/* <Stagger /> */}
-      <Delay />
+      {/* <Delay /> */}
+      <InterpolatesOnInterpolate />
     </View>
   );
 }
