@@ -27,6 +27,7 @@ import ColorsBackground from "./components/ColorsBackground";
 import RotationMore from "./components/RotationMore";
 import Extrapolate from "./components/Extrapolate";
 import CreateAnimatedComponent from "./components/CreateAnimatedComponent";
+import SetNativeProps from "./components/SetNativeProps";
 
 export default function App() {
   return (
@@ -56,7 +57,8 @@ export default function App() {
       {/* <ColorsBackground /> */}
       {/* <RotationMore /> */}
       {/* <Extrapolate /> */}
-      <CreateAnimatedComponent />
+      {/* <CreateAnimatedComponent /> */}
+      <SetNativeProps />
     </View>
   );
 }
